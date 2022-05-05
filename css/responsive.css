@@ -1,0 +1,821 @@
+/* 
+1600px - Extra Large Screen
+1200px - Large Screen
+991px - Small Screen
+768px - Tablet View,Small Devices
+767px - Tablet View,Small Devices
+576px - Mobile View,Extra Small Devices
+*/
+
+/*Responsive for Extra Large Screen */
+@media only screen and (min-width: 2500px) {
+  .ourwork-carousel {
+    display: none;
+  }
+  .service-headline {
+    color: #edf2ff;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .service-btn {
+    padding: 40px 60px;
+    font-size: 30px;
+    border-radius: 50px;
+  }
+  .service-section-carousel {
+    display: none;
+  }
+  .names {
+    display: grid;
+  }
+}
+@media only screen and (min-width: 1921px) {
+  .ourwork-carousel {
+    display: none;
+  }
+  .services .img-fluid {
+    width: 100%;
+  }
+  .service-section-carousel {
+    display: none;
+  }
+  .names {
+    display: grid;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  header .nav-btn {
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 25px;
+    color: black;
+    border-style: none;
+    font-size: 15px;
+  }
+  .banner-section p {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  .ourwork-carousel {
+    display: none;
+  }
+  .scheme-btn {
+    font-size: 17px;
+    padding: 20px 20px;
+  }
+  .service-headline {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .service-tagline {
+    padding: 82px 0px 40px 40px;
+  }
+  .service-btn {
+    padding: 20px 40px;
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .service-section-carousel {
+    display: none;
+  }
+  .names {
+    display: grid;
+  }
+}
+/* Responsive for Large Screens */
+@media only screen and (max-width: 1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 25px;
+  }
+  .banner-content .card-title {
+    margin-top: 160px;
+    font-size: 38px;
+  }
+  .banner-section p {
+    font-size: 15px;
+  }
+  .banner-card {
+    margin: 0;
+  }
+  .card-deck .card {
+    width: auto;
+  }
+  .ourwork-carousel {
+    display: none;
+  }
+  .offer-description {
+    margin-top: 100px;
+  }
+  .offer-card {
+    padding: 40px 51px;
+  }
+
+  .names {
+    display: grid;
+  }
+
+  .scheme-tag {
+    font-size: 42px;
+    padding: 15px 0px 15px 0px;
+  }
+  .scheme-flat {
+    line-height: 25px;
+    font-size: 23px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin: 70px 0px 110px 0px;
+  }
+  .card-deck .card-body {
+    padding: 2.25rem;
+  }
+  .service-tagline {
+    padding: 82px 0px 40px 30px;
+  }
+  .service-headline {
+    font-size: 40px;
+  }
+  .carousel-control-next {
+    padding-left: 30px;
+  }
+  .carousel-control-prev {
+    padding-right: 50px;
+  }
+  .service-section-carousel {
+    display: none;
+  }
+}
+/* Responsive for Small View */
+@media only screen and (max-width: 991px) {
+  body {
+    background-position: 252% 21%;
+    background-size: 67% 13%;
+  }
+  /* Header Section */
+  .navbar .fa {
+    font-size: xx-large;
+  }
+  .navbar-light .navbar-toggler-icon {
+    height: 17px;
+    width: 24px;
+  }
+  .navbar-brand {
+    padding: 12px 0px 12px 0px;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar button:focus {
+    outline: none;
+  }
+  header .nav-btn {
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 7px 0px 15px 0px;
+    color: white;
+    font-size: 12px;
+    box-shadow: none;
+  }
+  header .nav-btn:hover,
+  header .nav-btn:focus {
+    background-color: transparent;
+    color: black;
+    border-style: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+  }
+  /* Banner Section */
+  .banner-content .card-title {
+    margin-top: 130px;
+    font-size: 36px;
+    line-height: 49px;
+  }
+  .banner-section p {
+    line-height: 30px;
+  }
+  .banner-logo {
+    padding-left: 0px;
+  }
+  /* Our Work Section */
+  .titles .work-title {
+    margin-top: 120px;
+  }
+  .titles .work-subtitle {
+    font-size: 35px;
+    margin: 40px 0px 25px 0px;
+  }
+  .ourwork-carousel {
+    display: none;
+  }
+  .work-description {
+    padding-bottom: 30px;
+  }
+  .product-name {
+    padding: 21px 0px 17px 0px;
+  }
+  .product {
+    margin-top: 45px;
+  }
+  /* Offer Section */
+  .offer-tag {
+    font-size: 30px;
+  }
+
+  /* Scheme Section */
+  .scheme-btn {
+    padding: 20px 20px;
+    line-height: 20px;
+  }
+  .scheme-tag {
+    font-size: 50px;
+  }
+  .scheme-detail {
+    padding: 27px 66px 39px 68px;
+  }
+  /* Service Section */
+  .service-section-carousel {
+    display: none;
+  }
+  .headline {
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    padding: 22px 0px 20px 0px;
+  }
+
+  /* Contact Us Section */
+  .contact-description {
+    font-size: 14px;
+    padding: 10px 0px 40px 0px;
+  }
+  .contact-title {
+    font-size: 35px;
+  }
+  .contact-btn {
+    padding: 20px 38px;
+    font-size: 20px;
+  }
+  /* Our Client Section */
+  .client-text {
+    text-align: center;
+    padding: 0px 23px 0px 23px;
+  }
+  .client-name {
+    text-align: center;
+  }
+  .client-images {
+    padding: 30px 0px 30px 0px;
+  }
+  .client-detail {
+    padding-bottom: 15px;
+  }
+  /* footer Section */
+  .about-us {
+    margin-left: 35px;
+  }
+  .aboutus-list {
+    margin-left: 35px;
+  }
+  .names {
+    display: grid;
+  }
+}
+/* Responsive for Tablet View */
+@media only screen and (max-width: 768px) {
+  /* Header Section */
+  .navbar .fa {
+    font-size: xx-large;
+  }
+  .navbar-nav {
+    padding: 0px;
+    float: left;
+    width: 100%;
+  }
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+  header .nav-btn {
+    margin-bottom: 0px;
+  }
+  /* Banner Section */
+  .banner-content .card-title {
+    margin-top: 66px;
+    font-size: 35px;
+    padding-right: 10px;
+  }
+  .banner-content .card {
+    padding-left: 0px;
+  }
+  .banner-content .card-body {
+    padding: 0px 060px 0px 0px;
+  }
+  .banner-logo {
+    margin-top: 40px;
+    padding-left: 0px;
+  }
+  /* Our Work Section */
+  .ourwork-carousel {
+    display: none;
+  }
+  .service-section-carousel {
+    display: none;
+  }
+  .work-description {
+    margin: 0px;
+    padding-bottom: 50px;
+  }
+  .work-detail {
+    margin-bottom: 30px;
+  }
+  .titles .work-subtitle {
+    line-height: 50px;
+    margin: 30px 0px 15px 0px;
+  }
+  .product-name {
+    padding: 15px 0px 15px 0px;
+  }
+  .product {
+    margin-top: 20px;
+  }
+  /* Offer Section */
+  .offer-description {
+    margin: 50px 0px 0px 0px;
+    padding: 10px 0px 17px 0px;
+  }
+  .offer-tag {
+    margin: 15px;
+    font-size: 30px;
+  }
+  /* Scheme Section */
+  .scheme-section {
+    margin-top: 60px;
+  }
+  .scheme-btn {
+    line-height: 23px;
+  }
+  .card-deck .card {
+    width: auto;
+  }
+  .scheme-tag {
+    padding: 10px 0px 10px 0px;
+  }
+  .scheme-detail {
+    padding: 27px 45px 39px 45px;
+  }
+  /* Contact Us Section */
+  .contact-title {
+    padding: 0px 14px 0px 14px;
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .contact-description {
+    padding: 5px 0px 40px 0px;
+  }
+  .contact-btn {
+    padding: 20px 30px;
+    font-size: 20px;
+  }
+  /* Our Client Section */
+  .our-client {
+    text-align: center;
+    margin: 80px 0px 72px 0px;
+  }
+  .headline {
+    font-size: 35px;
+    padding: 17px 0px 5px 0px;
+  }
+  .client-images {
+    padding: 30px 0px 0px 0px;
+  }
+  .client-img {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .carousel-control-next {
+    padding-right: 0px;
+  }
+  .carousel-control-prev {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin: 55px 0px 80px 0px;
+  }
+  .card-text:last-child {
+    margin-bottom: 0px;
+    padding-right: auto;
+  }
+  .card-deck .card {
+    margin-top: 20px;
+  }
+
+  .client-text {
+    float: none;
+    text-align: center;
+  }
+  .client-detail {
+    background-size: 22%;
+    padding: 0px 15px 15px 20px;
+  }
+  /* Our Service Section */
+  .service-tagline {
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding: 75px 0px 40px 40px;
+  }
+  .service-headline {
+    font-size: 35px;
+  }
+  /* Footer Section */
+  footer {
+    margin-top: 20%;
+    padding: 45px 0px 35px 0px;
+  }
+  .names {
+    display: grid;
+  }
+  .footer-title {
+    margin-top: 30px;
+  }
+  footer li {
+    margin-bottom: 5px;
+  }
+}
+/* Responsive for tablet view */
+@media only screen and (max-width: 767px) {
+  /* Header Section */
+  .navbar .fa {
+    font-size: xx-large;
+  }
+  /* Banner Section */
+  .banner-content .card-title {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .banner-section p {
+    line-height: 23px;
+  }
+  /* Our Work Section */
+  .titles .work-subtitle {
+    line-height: 35px;
+    font-size: 30px;
+    margin: 15px 0px 15px 0px;
+  }
+  .product-name {
+    padding: 24px 0px 15px 0px;
+    line-height: 15px;
+  }
+  .work-detail {
+    padding: 0px 30px 0px 30px;
+  }
+  .ourwork-carousel {
+    display: none;
+  }
+  /* Offer Section */
+  .offer-description {
+    margin: 30px 0px 0px 0px;
+    padding: 10px 0px 17px 0px;
+  }
+  /* Our Service Section */
+  .service-section-carousel {
+    display: none;
+  }
+  /* Scheme Section */
+  .scheme-section {
+    margin-top: 0px;
+  }
+  .card-deck {
+    margin-top: 30px;
+  }
+  .card-deck .card {
+    margin-top: 50px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin: 65px 0px 110px 0px;
+  }
+  /* Our Client Section */
+  .our-client {
+    margin: 75px 0px 135px 0px;
+  }
+
+  .client-images {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .client-text {
+    padding: 0px;
+  }
+
+  .client-name {
+    padding-right: 8px;
+  }
+  .client-detail {
+    padding-bottom: 15px;
+  }
+  .client-section .carousel-indicators {
+    bottom: -65px;
+  }
+  /* Footer Section */
+  .names {
+    display: inherit;
+  }
+  .about-us {
+    margin-left: 0px;
+  }
+  .aboutus-list {
+    margin-left: 0px;
+  }
+  footer {
+    margin-top: 15%;
+    padding: 45px 0px 25px 0px;
+  }
+  footer .footer-img {
+    padding-top: 32px;
+  }
+
+  .copyright-footer {
+    text-align: center;
+  }
+}
+/* Responsive for Mobile View */
+@media only screen and (max-width: 576px) {
+  body {
+    background-position: 252% 16%;
+    background-size: 67% 7%;
+  }
+  .navbar .fa {
+    font-size: larger;
+  }
+  .navbar {
+    padding: 0px 10px;
+  }
+  .navbar-brand {
+    width: 22%;
+    float: left;
+  }
+  .banner-detail {
+    order: 2;
+  }
+  .banner-logo {
+    margin-top: 23px;
+  }
+  .banner-image {
+    order: 1;
+    padding: 0px 76px;
+  }
+  .banner-section p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .banner-content .card {
+    padding: 0px 12px 0px 12px;
+  }
+  .banner-content .card-title {
+    margin: 30px 0px 14px 0px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .banner-content .card-body {
+    padding: 0px;
+  }
+
+  .titles .work-title {
+    font-size: 12px;
+    line-height: 10px;
+    margin-top: 51px;
+  }
+  .titles .work-subtitle {
+    line-height: 19px;
+    font-size: 16px;
+    margin: 16px 0px 13px 0px;
+  }
+  .work-detail {
+    margin-bottom: 98px;
+    padding: 0px 47px 0px 47px;
+  }
+  .work-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 35px;
+  }
+  .ourwork-carousel {
+    display: block;
+  }
+  .ourwork {
+    display: none;
+  }
+  .client-images {
+    padding-top: 0px;
+    margin-top: 21px;
+  }
+  .client-img {
+    margin-bottom: 19px;
+  }
+  .offer-description {
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 8px 0px;
+
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.14);
+    border: none;
+  }
+  .offer-button .no-gutters {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .service-headline {
+    font-size: 30px;
+    line-height: 40.04px;
+  }
+  .service-tagline {
+    padding: 50px 85px 0px 50px;
+  }
+  .service-section-carousel {
+    display: block;
+  }
+  .service-section {
+    display: none;
+  }
+  .client-section .carousel-indicators {
+    bottom: -37px;
+  }
+
+  .offer-tag {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+  }
+  .scheme-section {
+    margin-top: 0px;
+  }
+  .card-deck {
+    margin-top: -25px;
+  }
+  .product {
+    margin-top: 0px;
+  }
+  .scheme-flat {
+    font-size: 17px;
+    line-height: 10px;
+  }
+  .scheme-tag {
+    font-size: 54px;
+    line-height: 50px;
+    padding: 25px 0px 21px 0px;
+  }
+  .per-month-rate {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+  }
+  .scheme-detail {
+    padding: 20px 40px 27px 40px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .scheme-btn {
+    font-size: 13px;
+    line-height: 10px;
+    border-radius: 21px;
+    padding: 15px 15px;
+  }
+  .card-deck .card-body {
+    padding: 38px 0px 28px 0px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    margin: 22px 0px 50px 0px;
+  }
+  .card-deck .card {
+    margin-bottom: 0px;
+  }
+  .col-lg-4 .services {
+    position: relative;
+    height: auto;
+    min-height: 205px;
+  }
+  .service-btn {
+    padding: 13px 23px;
+    font-size: 14px;
+    margin-top: 22px;
+  }
+  .services .img-fluid {
+    height: auto;
+    min-height: 205px;
+  }
+  .contact-title {
+    font-size: 17px;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px;
+  }
+  .contact-btn {
+    font-size: 13px;
+    padding: 15px 26px;
+  }
+  .contact-description {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 21px 30px 32px 30px;
+  }
+  .contact-us {
+    padding: 26px 0px 27px 0px;
+  }
+  .our-client {
+    margin: 49px 0px 0px 0px;
+  }
+  .testimonial {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  .headline {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .client-detail {
+    padding: 0px 20px;
+  }
+  .client-text {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px;
+  }
+  .client-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-right: 8px;
+  }
+  .client-designation {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+  }
+  /* Footer Section */
+  .names {
+    margin: 15px 21px;
+  }
+  .footer-title {
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 70px;
+  }
+  footer .footer-img {
+    width: auto;
+    padding-top: 33px;
+    margin-bottom: 16px;
+  }
+  .links {
+    width: 50%;
+    padding-left: 65px;
+    text-align: left;
+  }
+  .form-group {
+    margin: 27px 28px 40px 27px;
+  }
+  .footer-copyright {
+    padding: 26px 0px 24px 0px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* Service Section */
+  .service-tagline {
+    padding: 28px 85px 0px 41px;
+  }
+  .service-headline {
+    font-size: 26px;
+    line-height: 30.04px;
+  }
+  /* Footer Section */
+  .links {
+    width: 50%;
+    padding-left: 43px;
+    text-align: left;
+  }
+  footer .footer-img {
+    width: 104px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+  }
+  footer .footer-img {
+    width: auto;
+    padding-top: 0px;
+    margin-bottom: 16px;
+  }
+}
